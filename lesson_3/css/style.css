@@ -1,0 +1,75 @@
+p {
+	color: black;
+}
+
+.title {
+	color: darkblue;
+}
+
+#some-id {
+	color: red;
+}
+
+.article .sub-title {
+	color: brown;
+}
+
+.article > .list {
+	color: green;
+}
+
+.list .item {
+	color: purple;
+}
+
+.item .link {
+	color: orange;
+}
+
+#history + .text {
+	color: darkcyan;
+}
+
+#history ~ .block {
+	color: crimson;
+}
+
+[title] {
+	color: teal;
+}
+
+[href="#top"] {
+	color: darkred;
+}
+
+.list.nature-list {
+	color: darkgreen;
+}
+
+.nature-list .item:first-child {
+	color: blue;
+}
+
+.nature-list .item:last-child {
+	color: chocolate;
+}
+
+.nature-list .item:nth-child(even) {
+	color: darkmagenta;
+}
+
+.nature-list .item:nth-child(odd) {
+	color: navy;
+}
+
+p.text {
+	color: gray;
+}
+
+.block p {
+	color: darkorange;
+}
+
+.text .city {
+	color: darkviolet;
+}
